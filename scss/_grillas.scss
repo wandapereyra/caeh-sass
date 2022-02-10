@@ -1,0 +1,21 @@
+.grillaFooter{
+    display: grid;
+    grid-template-areas: 
+    "item-l" "item-s"
+    "item-p" "item-p";
+    grid-template-columns: 50% auto;
+    grid-template-rows: 72% auto;
+}
+
+.item-l{
+    grid-area: item-l;
+}
+
+.item-s{
+    grid-area: item-s;
+    padding-right: 10%;
+}
+
+.item-p{
+    grid-area: item-p;
+}
