@@ -83,3 +83,16 @@ main {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%; }
+
+.grillaFooter {
+  display: grid;
+  grid-template-areas: "item-l" "item-s" "item-p" "item-p";
+  grid-template-columns: 50% auto;
+  grid-template-rows: 72% auto; }
+  .grillaFooter .item-l {
+    grid-area: item-l; }
+  .grillaFooter .item-s {
+    grid-area: item-s;
+    padding-right: 10%; }
+  .grillaFooter .item-p {
+    grid-area: item-p; }
