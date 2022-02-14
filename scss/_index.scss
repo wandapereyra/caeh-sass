@@ -5,9 +5,11 @@ main{
 
 .portada{
     background-image: url(../img/collage.jpg);
-    color: $blanco;
-    width: 100%;
     height: 75vh;
+    background-repeat:no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    opacity: 70%;
 
     /*flex*/
     display: flex;
@@ -15,6 +17,8 @@ main{
 
     h1{
         padding-top: 20vh;
+        color: $blanco;
+        opacity: 100%;
 
         /*animaciones*/
         animation-duration: 5s;
@@ -29,6 +33,9 @@ main{
             }
         }
     }
+}
+
+.container{
 
     h3{
         color: $blanco;
