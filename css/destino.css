@@ -62,7 +62,7 @@ main {
   height: 75vh;
   background-repeat: no-repeat;
   background-position: 100%;
-  background-size: 100%;
+  background-size: cover;
   opacity: 70%;
   /*flex*/
   display: flex;
