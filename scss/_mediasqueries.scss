@@ -1,0 +1,59 @@
+@media screen and (max-width:768px){
+    .grillaDeportes{
+        display: grid;
+        grid-template-areas:
+        "item-d"
+        "item-f" 
+        "item-h" 
+        "item-t"
+        "item-v" 
+        "item-p" 
+        "item-n" ;
+    
+        .item-d{
+            grid-area: item-d;
+        }
+        .item-f{
+            grid-area: item-f;   
+        }
+        .item-h{
+            grid-area: item-h;
+        }
+        .item-t{
+            grid-area: item-t;
+        }
+        .item-v{
+            grid-area: item-v;
+        }
+        .item-p{
+            grid-area: item-p;
+        }
+        .item-n{
+            grid-area: item-n;
+        }
+    
+    }
+
+    .grillaFooter{
+        display: grid;
+        grid-template-areas: 
+        "item-l" 
+        "item-s"
+        "item-p";
+        grid-template-columns: 100%;
+    
+    
+        .item-l{
+            grid-area: item-l;
+        }
+    
+        .item-s{
+            grid-area: item-s;
+        }
+    
+        .item-p{
+            grid-area: item-p;
+        }
+    }
+
+}

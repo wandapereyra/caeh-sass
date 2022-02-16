@@ -98,3 +98,80 @@ main {
     grid-area: item-s; }
   .grillaFooter .item-p {
     grid-area: item-p; }
+
+.grillaDeportes {
+  display: grid;
+  grid-template-areas: "item-d item-d item-d" "item-f item-h item-t" "item-v item-p item-n";
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 20% auto auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-left: 5%; }
+  .grillaDeportes .item-d {
+    grid-area: item-d; }
+  .grillaDeportes .item-f {
+    grid-area: item-f; }
+  .grillaDeportes .item-h {
+    grid-area: item-h; }
+  .grillaDeportes .item-t {
+    grid-area: item-t; }
+  .grillaDeportes .item-v {
+    grid-area: item-v; }
+  .grillaDeportes .item-p {
+    grid-area: item-p; }
+  .grillaDeportes .item-n {
+    grid-area: item-n; }
+
+.card-body h5 {
+  color: #0e0e74; }
+
+.card-body p {
+  color: #0e0e74; }
+
+.card-img-top {
+  background-size: cover; }
+
+.grillaDeportes .item-d {
+  color: white; }
+
+.grillaDeportes .info {
+  color: #fff23b; }
+
+.grillaDeportes .card-text {
+  color: white; }
+
+.grillaDeportes .card-title {
+  color: #fff23b; }
+
+@media screen and (max-width: 768px) {
+  .grillaDeportes {
+    display: grid;
+    grid-template-areas: "item-d" "item-f"  "item-h"  "item-t" "item-v"  "item-p"  "item-n"; }
+    .grillaDeportes .item-d {
+      grid-area: item-d; }
+    .grillaDeportes .item-f {
+      grid-area: item-f; }
+    .grillaDeportes .item-h {
+      grid-area: item-h; }
+    .grillaDeportes .item-t {
+      grid-area: item-t; }
+    .grillaDeportes .item-v {
+      grid-area: item-v; }
+    .grillaDeportes .item-p {
+      grid-area: item-p; }
+    .grillaDeportes .item-n {
+      grid-area: item-n; }
+  .grillaFooter {
+    display: grid;
+    grid-template-areas: "item-l"  "item-s" "item-p";
+    grid-template-columns: 100%; }
+    .grillaFooter .item-l {
+      grid-area: item-l; }
+    .grillaFooter .item-s {
+      grid-area: item-s; }
+    .grillaFooter .item-p {
+      grid-area: item-p; } }

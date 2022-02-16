@@ -19,6 +19,48 @@
     }
 }
 
+.grillaDeportes{
+    display: grid;
+    grid-template-areas:
+    "item-d item-d item-d"
+    "item-f item-h item-t"
+    "item-v item-p item-n" ;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 20% auto auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+
+    .item-d{
+        grid-area: item-d;
+    }
+    .item-f{
+        grid-area: item-f;   
+    }
+    .item-h{
+        grid-area: item-h;
+    }
+    .item-t{
+        grid-area: item-t;
+    }
+    .item-v{
+        grid-area: item-v;
+    }
+    .item-p{
+        grid-area: item-p;
+    }
+    .item-n{
+        grid-area: item-n;
+    }
+
+}
+
+
+
 
 
 
