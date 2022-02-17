@@ -22,11 +22,15 @@ header {
   position: absolute;
   top: 0%;
   left: 2%;
+  height: 200px;
   /*animaciones*/
   transition: height 1s;
   z-index: 9999; }
   .logo:hover {
     height: 250px; }
+
+.item-l img {
+  height: 150px; }
 
 .container-fluid {
   /*flex*/
@@ -174,4 +178,10 @@ main {
     .grillaFooter .item-s {
       grid-area: item-s; }
     .grillaFooter .item-p {
-      grid-area: item-p; } }
+      grid-area: item-p; }
+  .portada {
+    align-items: center; }
+  .logo {
+    height: 150px; }
+    .logo:hover {
+      height: 200px; } }

@@ -56,4 +56,14 @@
         }
     }
 
+    .portada{
+        align-items: center;
+    }
+
+    .logo{
+        height: $alto - 50;
+        &:hover{
+            height: $alto;
+        }
+    }
 }

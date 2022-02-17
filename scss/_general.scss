@@ -27,12 +27,19 @@ header{
     position: absolute;
     top:0%;
     left: 2%;
+    height: $alto;
 
     /*animaciones*/
     transition: height 1s;
     z-index: 9999;
     &:hover{
-        height: 250px;
+        height: $alto + 50;
+    }
+}
+
+.item-l{
+    img{
+        height: $alto - 50;
     }
 }
 
