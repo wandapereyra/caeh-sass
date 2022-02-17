@@ -15,7 +15,6 @@ body{
 }
 
 header{
-    background-color: $azuloscuro;
     position: fixed;
     z-index: 9999;
     width: 100%;
@@ -54,7 +53,6 @@ header{
 }
 
 footer{
-    background-color: $amarillo;
 
     p {
         text-align: end;

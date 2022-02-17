@@ -12,7 +12,6 @@ body {
   justify-content: space-between; }
 
 header {
-  background-color: #0e0e74;
   position: fixed;
   z-index: 9999;
   width: 100%;
@@ -40,14 +39,13 @@ header {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff23b; }
 
-footer {
-  background-color: #fff23b; }
-  footer p {
-    text-align: end;
-    padding-right: 2%;
-    color: #0e0e74; }
-  footer h4 {
-    color: #0e0e74; }
+footer p {
+  text-align: end;
+  padding-right: 2%;
+  color: #0e0e74; }
+
+footer h4 {
+  color: #0e0e74; }
 
 .pieFlex {
   display: flex;
@@ -58,7 +56,6 @@ footer {
     list-style: none; }
 
 main {
-  background-color: #0a0a5f;
   padding-bottom: 2%; }
 
 .portada {
@@ -185,3 +182,12 @@ main {
     height: 150px; }
     .logo:hover {
       height: 200px; } }
+
+.color-header {
+  background-color: #0e0e74; }
+
+.color-main {
+  background-color: #0a0a5f; }
+
+.color-footer {
+  background-color: #fff23b; }

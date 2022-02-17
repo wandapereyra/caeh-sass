@@ -1,0 +1,12 @@
+$colores: (
+    header: $azuloscuro,
+    main: $azul,
+    footer: $amarillo,
+);
+
+@each $nombre, $color in $colores {
+    .color-#{$nombre}{
+        background-color: $color;
+    }
+    
+}
